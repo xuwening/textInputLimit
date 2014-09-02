@@ -11,3 +11,8 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
          
          
 ***使用过程中不需要对UITextField和UITextView或Xib文件做任何修改。***
+
+License
+-----------
+   
+TextInputLimit is under MIT license.
