@@ -10,7 +10,7 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
 `[textObj setValue:@4 forKey:@"limit"];`        
          
          
-***使用过程中不需要对UITextField和UITextView或Xib文件做任何修改。***
+***使用过程中不需要对UITextField和UITextView或Xib文件做任何修改，也不需要引用头文件。***
 
 License
 -----------
