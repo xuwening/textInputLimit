@@ -6,6 +6,10 @@
 //  Copyright (c) 2014年 aqua. All rights reserved.
 //
 
+// 版权属于原作者
+// http://code4app.com (cn) http://code4app.net (en)
+// 发布代码于最专业的源码分享网站: Code4App.com
+
 #import "LimitInput.h"
 #import <objc/runtime.h>
 
@@ -67,8 +71,8 @@ IMPLEMENT_PROPERTY(UITextView)
     UITextField *textField = (UITextField *)notification.object;
     
     NSNumber *number = [textField valueForKey:PROPERTY_NAME];
-    if (number && textField.text.length > [number integerValue]) {
-        textField.text = [textField.text substringToIndex: [number integerValue]];
+    if (number && textField.text.length > [number integerValue] && textField.markedTextRange == nil) {
+        textField.text = [textField.text substringWithRange: NSMakeRange(0, [number integerValue])];
     }
 }
 
@@ -78,8 +82,8 @@ IMPLEMENT_PROPERTY(UITextView)
     UITextView *textView = (UITextView *)notificaiton.object;
     
     NSNumber *number = [textView valueForKey:PROPERTY_NAME];
-    if (number && textView.text.length > [number integerValue]) {
-        textView.text = [textView.text substringToIndex: [number integerValue]];
+    if (number && textView.text.length > [number integerValue] && textView.markedTextRange == nil) {
+        textView.text = [textView.text substringWithRange: NSMakeRange(0, [number integerValue])];
     }
 }
 
