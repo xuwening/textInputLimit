@@ -36,7 +36,7 @@
     if ([object isEqual: self.textfield]) {
         //收到来自textfield的输入限制
     }
-    
+    //提示
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"您输入的长度过长，自动被截断。" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     [alert show];
 }
