@@ -59,3 +59,18 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
 ```
 
 
+运行demo
+--------
+
+`git clone https://github.com/xuwening/textInputLimit.git`
+
+`cd textInputLimit && pod install`
+
+打开`TextInputLimitTest.xcworkspace`运行。
+
+
+
+
+
+
+

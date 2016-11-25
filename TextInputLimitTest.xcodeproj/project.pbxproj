@@ -21,9 +21,7 @@
 		5211B41C19B56CFD00CF13DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211B3FE19B56CFD00CF13DD /* UIKit.framework */; };
 		5211B42419B56CFD00CF13DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5211B42219B56CFD00CF13DD /* InfoPlist.strings */; };
 		5211B42619B56CFD00CF13DD /* TextInputLimitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211B42519B56CFD00CF13DD /* TextInputLimitTestTests.m */; };
-		BD6FD7F71DE834A70035F5B9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD6FD7F21DE834A70035F5B9 /* .gitkeep */; };
-		BD6FD7F81DE834A70035F5B9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD6FD7F41DE834A70035F5B9 /* .gitkeep */; };
-		BD6FD7F91DE834A70035F5B9 /* LimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6FD7F61DE834A70035F5B9 /* LimitInput.m */; };
+		99B10C1C24DAE209A42F313B /* libPods-TextInputLimitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58988B709FAF31B7E997E15 /* libPods-TextInputLimitTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3978E523BB811BE4A3C41A97 /* Pods-TextInputLimitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextInputLimitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextInputLimitTest/Pods-TextInputLimitTest.release.xcconfig"; sourceTree = "<group>"; };
 		5211B3F719B56CFC00CF13DD /* TextInputLimitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextInputLimitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5211B3FA19B56CFD00CF13DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5211B3FC19B56CFD00CF13DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,10 +55,8 @@
 		5211B42119B56CFD00CF13DD /* TextInputLimitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextInputLimitTestTests-Info.plist"; sourceTree = "<group>"; };
 		5211B42319B56CFD00CF13DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5211B42519B56CFD00CF13DD /* TextInputLimitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextInputLimitTestTests.m; sourceTree = "<group>"; };
-		BD6FD7F21DE834A70035F5B9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BD6FD7F41DE834A70035F5B9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		BD6FD7F51DE834A70035F5B9 /* LimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitInput.h; sourceTree = "<group>"; };
-		BD6FD7F61DE834A70035F5B9 /* LimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitInput.m; sourceTree = "<group>"; };
+		A58988B709FAF31B7E997E15 /* libPods-TextInputLimitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextInputLimitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5627E7852EFB48ED77C39E /* Pods-TextInputLimitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextInputLimitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextInputLimitTest/Pods-TextInputLimitTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +67,7 @@
 				5211B3FD19B56CFD00CF13DD /* CoreGraphics.framework in Frameworks */,
 				5211B3FF19B56CFD00CF13DD /* UIKit.framework in Frameworks */,
 				5211B3FB19B56CFD00CF13DD /* Foundation.framework in Frameworks */,
+				99B10C1C24DAE209A42F313B /* libPods-TextInputLimitTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,11 +87,11 @@
 		5211B3EE19B56CFC00CF13DD = {
 			isa = PBXGroup;
 			children = (
-				BD6FD7F01DE834A70035F5B9 /* TextInputLimit */,
 				5211B40019B56CFD00CF13DD /* TextInputLimitTest */,
 				5211B41F19B56CFD00CF13DD /* TextInputLimitTestTests */,
 				5211B3F919B56CFC00CF13DD /* Frameworks */,
 				5211B3F819B56CFC00CF13DD /* Products */,
+				87E8CA8208D3AA06C924C50E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +111,7 @@
 				5211B3FC19B56CFD00CF13DD /* CoreGraphics.framework */,
 				5211B3FE19B56CFD00CF13DD /* UIKit.framework */,
 				5211B41919B56CFD00CF13DD /* XCTest.framework */,
+				A58988B709FAF31B7E997E15 /* libPods-TextInputLimitTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,31 +159,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BD6FD7F01DE834A70035F5B9 /* TextInputLimit */ = {
+		87E8CA8208D3AA06C924C50E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD6FD7F11DE834A70035F5B9 /* Assets */,
-				BD6FD7F31DE834A70035F5B9 /* Classes */,
+				BC5627E7852EFB48ED77C39E /* Pods-TextInputLimitTest.debug.xcconfig */,
+				3978E523BB811BE4A3C41A97 /* Pods-TextInputLimitTest.release.xcconfig */,
 			);
-			path = TextInputLimit;
-			sourceTree = "<group>";
-		};
-		BD6FD7F11DE834A70035F5B9 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				BD6FD7F21DE834A70035F5B9 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		BD6FD7F31DE834A70035F5B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				BD6FD7F41DE834A70035F5B9 /* .gitkeep */,
-				BD6FD7F51DE834A70035F5B9 /* LimitInput.h */,
-				BD6FD7F61DE834A70035F5B9 /* LimitInput.m */,
-			);
-			path = Classes;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5211B42919B56CFD00CF13DD /* Build configuration list for PBXNativeTarget "TextInputLimitTest" */;
 			buildPhases = (
+				1691EA9FE7CBC76B0BF13107 /* [CP] Check Pods Manifest.lock */,
 				5211B3F319B56CFC00CF13DD /* Sources */,
 				5211B3F419B56CFC00CF13DD /* Frameworks */,
 				5211B3F519B56CFC00CF13DD /* Resources */,
+				1F921C7C9AA15C59588D1693 /* [CP] Embed Pods Frameworks */,
+				64AE93AB1936DBA3D731D2C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,9 +249,7 @@
 			files = (
 				5211B41319B56CFD00CF13DD /* Images.xcassets in Resources */,
 				5211B40519B56CFD00CF13DD /* InfoPlist.strings in Resources */,
-				BD6FD7F81DE834A70035F5B9 /* .gitkeep in Resources */,
 				5211B40E19B56CFD00CF13DD /* Main.storyboard in Resources */,
-				BD6FD7F71DE834A70035F5B9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +263,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1691EA9FE7CBC76B0BF13107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F921C7C9AA15C59588D1693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextInputLimitTest/Pods-TextInputLimitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AE93AB1936DBA3D731D2C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextInputLimitTest/Pods-TextInputLimitTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5211B3F319B56CFC00CF13DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,7 +318,6 @@
 			files = (
 				5211B41119B56CFD00CF13DD /* ViewController.m in Sources */,
 				5211B40B19B56CFD00CF13DD /* AppDelegate.m in Sources */,
-				BD6FD7F91DE834A70035F5B9 /* LimitInput.m in Sources */,
 				5211B40719B56CFD00CF13DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +440,7 @@
 		};
 		5211B42A19B56CFD00CF13DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5627E7852EFB48ED77C39E /* Pods-TextInputLimitTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -425,6 +455,7 @@
 		};
 		5211B42B19B56CFD00CF13DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3978E523BB811BE4A3C41A97 /* Pods-TextInputLimitTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
