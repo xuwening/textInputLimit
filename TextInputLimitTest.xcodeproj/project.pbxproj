@@ -21,7 +21,9 @@
 		5211B41C19B56CFD00CF13DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211B3FE19B56CFD00CF13DD /* UIKit.framework */; };
 		5211B42419B56CFD00CF13DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5211B42219B56CFD00CF13DD /* InfoPlist.strings */; };
 		5211B42619B56CFD00CF13DD /* TextInputLimitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211B42519B56CFD00CF13DD /* TextInputLimitTestTests.m */; };
-		5211B43219B56D1D00CF13DD /* LimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 5211B43119B56D1D00CF13DD /* LimitInput.m */; };
+		BD6FD7F71DE834A70035F5B9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD6FD7F21DE834A70035F5B9 /* .gitkeep */; };
+		BD6FD7F81DE834A70035F5B9 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BD6FD7F41DE834A70035F5B9 /* .gitkeep */; };
+		BD6FD7F91DE834A70035F5B9 /* LimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6FD7F61DE834A70035F5B9 /* LimitInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +56,10 @@
 		5211B42119B56CFD00CF13DD /* TextInputLimitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextInputLimitTestTests-Info.plist"; sourceTree = "<group>"; };
 		5211B42319B56CFD00CF13DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5211B42519B56CFD00CF13DD /* TextInputLimitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextInputLimitTestTests.m; sourceTree = "<group>"; };
-		5211B43019B56D1D00CF13DD /* LimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitInput.h; sourceTree = "<group>"; };
-		5211B43119B56D1D00CF13DD /* LimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitInput.m; sourceTree = "<group>"; };
+		BD6FD7F21DE834A70035F5B9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BD6FD7F41DE834A70035F5B9 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BD6FD7F51DE834A70035F5B9 /* LimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitInput.h; sourceTree = "<group>"; };
+		BD6FD7F61DE834A70035F5B9 /* LimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitInput.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,7 @@
 		5211B3EE19B56CFC00CF13DD = {
 			isa = PBXGroup;
 			children = (
-				5211B42F19B56D1D00CF13DD /* limitInput */,
+				BD6FD7F01DE834A70035F5B9 /* TextInputLimit */,
 				5211B40019B56CFD00CF13DD /* TextInputLimitTest */,
 				5211B41F19B56CFD00CF13DD /* TextInputLimitTestTests */,
 				5211B3F919B56CFC00CF13DD /* Frameworks */,
@@ -156,13 +160,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5211B42F19B56D1D00CF13DD /* limitInput */ = {
+		BD6FD7F01DE834A70035F5B9 /* TextInputLimit */ = {
 			isa = PBXGroup;
 			children = (
-				5211B43019B56D1D00CF13DD /* LimitInput.h */,
-				5211B43119B56D1D00CF13DD /* LimitInput.m */,
+				BD6FD7F11DE834A70035F5B9 /* Assets */,
+				BD6FD7F31DE834A70035F5B9 /* Classes */,
 			);
-			path = limitInput;
+			path = TextInputLimit;
+			sourceTree = "<group>";
+		};
+		BD6FD7F11DE834A70035F5B9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BD6FD7F21DE834A70035F5B9 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BD6FD7F31DE834A70035F5B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD6FD7F41DE834A70035F5B9 /* .gitkeep */,
+				BD6FD7F51DE834A70035F5B9 /* LimitInput.h */,
+				BD6FD7F61DE834A70035F5B9 /* LimitInput.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +265,9 @@
 			files = (
 				5211B41319B56CFD00CF13DD /* Images.xcassets in Resources */,
 				5211B40519B56CFD00CF13DD /* InfoPlist.strings in Resources */,
+				BD6FD7F81DE834A70035F5B9 /* .gitkeep in Resources */,
 				5211B40E19B56CFD00CF13DD /* Main.storyboard in Resources */,
+				BD6FD7F71DE834A70035F5B9 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +288,7 @@
 			files = (
 				5211B41119B56CFD00CF13DD /* ViewController.m in Sources */,
 				5211B40B19B56CFD00CF13DD /* AppDelegate.m in Sources */,
-				5211B43219B56D1D00CF13DD /* LimitInput.m in Sources */,
+				BD6FD7F91DE834A70035F5B9 /* LimitInput.m in Sources */,
 				5211B40719B56CFD00CF13DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextInputLimitTest/TextInputLimitTest-Prefix.pch";
 				INFOPLIST_FILE = "TextInputLimitTest/TextInputLimitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextInputLimitTest/TextInputLimitTest-Prefix.pch";
 				INFOPLIST_FILE = "TextInputLimitTest/TextInputLimitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +496,7 @@
 				5211B42B19B56CFD00CF13DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5211B42C19B56CFD00CF13DD /* Build configuration list for PBXNativeTarget "TextInputLimitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +505,7 @@
 				5211B42E19B56CFD00CF13DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
