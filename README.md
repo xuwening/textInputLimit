@@ -11,7 +11,7 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
 2、手工方式集成
 -----------
 
-将TextInputLimit直接拷贝到工程中即可。
+将TextInputLimit文件夹直接添加到工程中即可。
 
 使用方式
 ---------
