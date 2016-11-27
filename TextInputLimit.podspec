@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TextInputLimit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'set a limit input to UITextField and UITextView.'
 
 # This description is used to generate tags and improve search results.
