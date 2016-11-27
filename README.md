@@ -2,16 +2,20 @@ TextInputLimit
 ==============
 TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用起来十分简单方便。
 
+1、支持系统版本
+
+`spec文件`设置最低版本为iOS 6.0，实际可以支撑更低，如果有需求可以手动集成。
+
 1、cocoapods自动集成
 -----------
 
-`pod 'TextInputLimit'`
+`pod 'TextInputLimit', '~> 1.0.2'`
 
 
 2、手工方式集成
 -----------
 
-将TextInputLimit文件夹直接添加到工程中即可。
+将TextInputLimit文件夹直接拖入工程中即可。
 
 使用方式
 ---------
@@ -20,7 +24,7 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
       
 `[textObj setValue:@4 forKey:@"limit"];`        
 
-长度限制只影响设置limit属性的对象，没有设置limit属性的对象不受影响。
+> 长度限制只影响设置limit属性的对象，没有设置limit属性的对象不受影响。
 
          
 ***使用过程中不需要对UITextField和UITextView或Xib文件做任何修改，也不需要引用头文件。***
